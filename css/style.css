@@ -11,6 +11,11 @@
 }
 
 /* Body layouts */
+.container-full {
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
 header {
     height: 70px;
 }
@@ -35,7 +40,7 @@ main {
     width: 100vw;
     height: 100vh;
     margin-top: 70px;
-    background-color: rgb(116, 163, 116);
+    padding: 70px 0;
 }
 
 /* Utilities */
@@ -47,12 +52,20 @@ main {
     background-color: var(--squid-ink);
 }
 
+.bg_opacity {
+    background-color: #00000049;
+}
+
 .mw_40 {
     max-width: 40px;
 }
 
 .my_10 {
     margin: 10px 0;
+}
+
+h4 {
+    font-size: 18px;
 }
 
 /* ---------- TO BE CHECKED ---------- */
@@ -68,6 +81,10 @@ header i {
 
 .bg_image {
     background-image: url('../img/sidebar-bg.png');
+}
+
+.top-main span {
+    font-size: 13px;
 }
 
 /* Responsiveness */
