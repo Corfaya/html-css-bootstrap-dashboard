@@ -18,7 +18,7 @@
 
 <body>
     <!-- TOP SECTION -->
-    <header class="bg-whitesmoke position-fixed w-100">
+    <header class="bg-whitesmoke position-fixed z-1 w-100">
         <div class="container-full">
             <div class="row">
                 <div class="col-12">
@@ -124,41 +124,116 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-7">
-                            <div class="card">
+                            <div class="card my-4">
                                 <div class="card-header">
-                                    Prossime classi
+                                    <h3>Prossime classi</h3>
                                 </div>
-                                <table class="table table-hover">
+                                <table class="table table-hover fs_12 text-center">
                                     <thead>
                                         <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">First</th>
-                                            <th scope="col">Last</th>
-                                            <th scope="col">Handle</th>
+                                            <td class="text-start" scope="col">Nome</td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td scope="col">Data inizio</td>
+                                            <td scope="col">ROI</td>
+                                            <td scope="col">Stato</td>
+                                            <td scope="col">Azioni</td>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
+                                        <tr>                                
+                                            <td class="text-start"><img src="./img/class-avatar.jpg" class="mw_40 d-inline-block pe-2" alt="avatar">Classe 75</td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td>15 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td><span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-trash"></i></span></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">2</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
+                                            <td class="text-start"><img src="./img/class-avatar.jpg" class="mw_40 d-inline-block pe-2" alt="avatar">Classe 76</td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td>16 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td><span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-trash"></i></span></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">3</th>
-                                            <td colspan="2">Larry the Bird</td>
-                                            <td>@twitter</td>
+                                            <td class="text-start"><img src="./img/class-avatar.jpg" class="mw_40 d-inline-block pe-2" alt="avatar">Classe 77</td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td>17 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-warning text-white">process</span></td>
+                                            <td><span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-trash"></i></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start"><img src="./img/class-avatar.jpg" class="mw_40 d-inline-block pe-2" alt="avatar">Classe 78</td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td>18 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td><span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-trash"></i></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start"><img src="./img/class-avatar.jpg" class="mw_40 d-inline-block pe-2" alt="avatar">Classe 79</td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td>19 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-danger">failed</span></td>
+                                            <td><span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-trash"></i></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start"><img src="./img/class-avatar.jpg" class="mw_40 d-inline-block pe-2" alt="avatar">Classe 80</td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td>20 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td><span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-trash"></i></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start"><img src="./img/class-avatar.jpg" class="mw_40 d-inline-block pe-2" alt="avatar">Classe 81</td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td>21 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-danger">failed</span></td>
+                                            <td><span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-trash"></i></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start"><img src="./img/class-avatar.jpg" class="mw_40 d-inline-block pe-2" alt="avatar">Classe 82</td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td scope="col"></td>
+                                            <td>22 Feb 2021</td>
+                                            <td>20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td><span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-secondary-subtle rounded py-1 px-2 me-1 text-secondary"><i class="fa-solid fa-trash"></i></span></td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="card">
+                            <div class="card mb-4">
                                 <div class="card-header">
                                     F.A.Q.
                                 </div>
