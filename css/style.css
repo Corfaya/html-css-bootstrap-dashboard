@@ -4,3 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --white-smoke: #F8F9FA;
+}
+
+/* Body layouts */
+header {
+    min-height: 60px;
+}
+
+main {
+    height: calc(100vh - 60px);
+    max-width: 100vw;
+    background-color: rgb(197, 90, 90);
+}
+
+.sidebar {
+    height: calc(100vh - 60px);
+    width: 50px;
+    background-color: rgb(57, 121, 55);    
+}
+
+.main-screen {
+    height: calc(100vh - 60px);
+    width: calc(100vw - 50px);
+    background-color: rgb(43, 63, 63);
+    align-self: flex-end;
+}
+
+/* Utilities */
+.bg-whitesmoke {
+    background-color: var(--white-smoke);
+}
