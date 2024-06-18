@@ -12,16 +12,16 @@
 
 /* Body layouts */
 .container-full {
-    min-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
 header {
-    height: 70px;
+    height: 60px;
 }
 
 header form {
-    flex-basis: 60%;
+    flex-basis: 70%;
 }
 
 main {
@@ -32,15 +32,13 @@ main {
 .sidebar {
     height: 100vh;
     width: 80px;
-    margin-top: 70px;
     padding: 100px 20px 20px 20px;
 }
 
 .main-screen {
     width: 100vw;
     height: 100vh;
-    margin-top: 70px;
-    padding: 70px 0;
+    padding: 60px 0;
 }
 
 /* Utilities */
