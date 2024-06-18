@@ -19,35 +19,45 @@
 <body>
     <!-- TOP SECTION -->
     <header class="bg-whitesmoke">
-        <div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-                            <div class="container-fluid">
-                                <a class="navbar-brand me-2" href="#">LOGO</a>
-                                <form class="d-flex w-100" role="search">
-                                    <input class="w-100 me-2" type="search" placeholder="Search"
-                                        aria-label="Search">
-                                </form>
-                                <div class="d-flex mx-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-md fixed-top">
+                        <div class="container-fluid">
+
+                            <a class="navbar-brand d-lg-none" href="#"><img class="mw_40" src="./img/mobile-logo.png"
+                                    alt="Logo-mobile"></a>
+                            <a class="navbar-brand d-none d-lg-block" href="#"><img src="./img/logo.svg" alt="Logo"></a>
+
+
+                            <form class="mw-100" role="search">
+                                <input class="w-100 rounded border-0 bg-secondary-subtle px-2 py-1" type="search"
+                                    placeholder="Search" aria-label="Search">
+                            </form>
+
+
+                            <div class="d-flex align-items-center justify-content-end">
+                                <div class="d-none d-lg-block">
                                     <i class="fa-solid fa-list-ul"></i>
                                     <i class="fa-solid fa-circle-question"></i>
                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                 </div>
                                 <div class="dropdown">
-                                    <button class="btn text-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="btn text-warning p-0" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
                                         <i class="fa-solid fa-bell"></i>
                                     </button>
-                                    <ul class="dropdown-menu">
+                                    <!-- To be checked: .left-negative-->
+                                    <ul class="dropdown-menu left_negative">
                                         <li><button class="dropdown-item" type="button">Profilo</button></li>
                                         <li><button class="dropdown-item" type="button">Fatturazione</button></li>
                                         <li><button class="dropdown-item" type="button">Logout</button></li>
                                     </ul>
                                 </div>
                             </div>
-                        </nav>
-                    </div>
+
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>

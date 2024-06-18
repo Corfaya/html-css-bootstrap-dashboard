@@ -6,14 +6,16 @@
 }
 
 :root {
-    --white: #fff;
-    --black: #000;
     --white-smoke: #F8F9FA;
 }
 
 /* Body layouts */
 header {
     min-height: 60px;
+}
+
+header form {
+    flex-basis: 60%;
 }
 
 main {
@@ -24,13 +26,13 @@ main {
 
 .sidebar {
     height: calc(100vh - 60px);
-    width: 50px;
+    min-width: 70px;
     background-color: rgb(57, 121, 55);    
 }
 
 .main-screen {
     height: calc(100vh - 60px);
-    width: calc(100vw - 50px);
+    width: calc(100vw - 70px);
     background-color: rgb(43, 63, 63);
     align-self: flex-end;
 }
@@ -38,4 +40,19 @@ main {
 /* Utilities */
 .bg-whitesmoke {
     background-color: var(--white-smoke);
+}
+
+.mw_40 {
+    max-width: 40px;
+}
+
+/* ---------- TO BE CHECKED ---------- */
+.left_negative {
+    left: -100px !important;
+}
+/* ----------   ---------- */
+
+/* Other styles */
+header i {
+    margin: 0 10px;
 }
