@@ -7,11 +7,12 @@
 
 :root {
     --white-smoke: #F8F9FA;
+    --squid-ink: #051E34;
 }
 
 /* Body layouts */
 header {
-    min-height: 60px;
+    height: 70px;
 }
 
 header form {
@@ -19,22 +20,18 @@ header form {
 }
 
 main {
-    height: calc(100vh - 60px);
+    height: calc(100vh + 70px);
     max-width: 100vw;
     background-color: rgb(197, 90, 90);
 }
 
 .sidebar {
-    height: calc(100vh - 60px);
-    min-width: 70px;
-    background-color: rgb(57, 121, 55);    
+    height: calc(100vh + 70px);
+    min-width: 70px; 
 }
 
 .main-screen {
-    height: calc(100vh - 60px);
     width: calc(100vw - 70px);
-    background-color: rgb(43, 63, 63);
-    align-self: flex-end;
 }
 
 /* Utilities */
@@ -42,8 +39,16 @@ main {
     background-color: var(--white-smoke);
 }
 
+.bg-squid-ink {
+    background-color: var(--squid-ink);
+}
+
 .mw_40 {
     max-width: 40px;
+}
+
+.my_10 {
+    margin: 10px 0;
 }
 
 /* ---------- TO BE CHECKED ---------- */
