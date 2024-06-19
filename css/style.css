@@ -8,6 +8,7 @@
 :root {
     --white-smoke: #F8F9FA;
     --squid-ink: #051E34;
+    --grey: #e5e5e5;
 }
 
 /* Body layouts */
@@ -17,6 +18,7 @@ header {
 
 header form {
     flex-basis: 70%;
+    cursor: pointer;
 }
 
 main {
@@ -49,6 +51,10 @@ main {
 
 .bg_opacity {
     background-color: #00000049;
+}
+
+.bg_grey {
+    background-color: var(--grey);
 }
 
 .mw_40 {
