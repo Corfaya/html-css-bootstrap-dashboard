@@ -78,9 +78,9 @@ header i {
 
 .top-main span {
     font-size: 13px;
+    cursor: pointer;
 }
 
-/* HOVER / ACTIVE */
 .div_hover:hover {
     background-color: #ffffffc3;
     cursor: pointer;
