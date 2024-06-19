@@ -328,16 +328,16 @@
                                 </div>
                                 <form action="#" method="post" class="m-2">
                                     <div class="d-block border rounded-top p-2">
-                                        <input type="checkbox" name="kickoff">
-                                        <label for="true">Kickoff nuove classi</label>
+                                        <input type="checkbox" name="kickoff" id="kickoff">
+                                        <label for="kickoff">Kickoff nuove classi</label>
                                     </div>
                                     <div class="d-block border-end border-start p-2">
-                                        <input type="checkbox" name="true">
-                                        <label for="true">Lezione su Bootstrap 5 in classe #75</label>
+                                        <input type="checkbox" name="lesson" id="lesson">
+                                        <label for="lesson">Lezione su Bootstrap 5 in classe #75</label>
                                     </div>
                                     <div class="d-block border rounded-bottom p-2">
-                                        <input type="checkbox" name="true">
-                                        <label for="true">Controllare username github studenti</label>
+                                        <input type="checkbox" name="control" id="control">
+                                        <label for="control">Controllare username github studenti</label>
                                     </div>
                                 </form>
                             </div>
@@ -390,9 +390,9 @@
                 <div class="col-12 col-md-6 mb-3">
                     <label class="form-label" for="email">Email</label>
                     <form action="#" method="post" class="input-group">
-                        <span class="input-group-text" id="email">@</span>
-                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1"
-                            for="email">
+                        <span class="input-group-text">@</span>
+                        <input type="text" class="form-control" aria-label="Username" 
+                            id="email">
                     </form>
                 </div>
                 <div class="col-12 col-md-6 mb-3">
@@ -454,7 +454,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <!-- Js Bootstrap -->
