@@ -32,7 +32,8 @@ main {
 }
 
 .main-screen {
-    width: 100vw;
+    /* why does it work on desktop or by writing only 100vw? */
+    width: (100vw - 80px);
     height: 100vh;
     padding: 60px 0;
     overflow-y: auto;
@@ -67,7 +68,7 @@ h4 {
     font-size: 12px;
 }
 
-/* ---------- TO BE CHECKED ---------- */
+/* ---------- TO BE CHECKED: margin? ---------- */
 .left_negative {
     left: -100px !important;
 }
