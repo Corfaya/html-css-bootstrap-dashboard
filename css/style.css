@@ -80,6 +80,12 @@ header i {
     font-size: 13px;
 }
 
+/* HOVER / ACTIVE */
+.div_hover:hover {
+    background-color: #ffffffc3;
+    cursor: pointer;
+}
+
 /* Responsiveness */
 @media screen and (min-width: 992px) {
     .sidebar {
